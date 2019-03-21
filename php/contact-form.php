@@ -45,8 +45,8 @@ if($to) {
 	$mail->Host = 'smtp.gmail.com';				  // Specify main and backup server
 	$mail->Port = 25; 
 	$mail->SMTPAuth = true;                             // Enable SMTP authentication
-	$mail->Username = 'angelherreratest@gmail.com';             		  // SMTP username
-	$mail->Password = 'hNq=iW79TF+@-n2_PcC?';                         // SMTP password
+	$mail->Username = '';             		  // SMTP username
+	$mail->Password = '';                         // SMTP password
 	//$mail->SMTPSecure = 'ssl';                          // Enable encryption, 'ssl' also accepted
 
 	$mail->From = $email;
