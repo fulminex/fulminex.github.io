@@ -42,11 +42,12 @@ if($to) {
 	$mail->IsSMTP();                                      // Set mailer to use SMTP
 	
 	// Optional Settings
-	$mail->Host = 'smtp.vosz.com.br';				  // Specify main and backup server
+	$mail->Host = 'smtp.gmail.com';				  // Specify main and backup server
+	$mail->Port = 587; 
 	$mail->SMTPAuth = true;                             // Enable SMTP authentication
-	$mail->Username = 'vosz@vosz.com.br';             		  // SMTP username
-	$mail->Password = 'momomm123';                         // SMTP password
-	//$mail->SMTPSecure = 'tls';                          // Enable encryption, 'ssl' also accepted
+	$mail->Username = 'angelherreratest@gmail.com';             		  // SMTP username
+	$mail->Password = 'hNq=iW79TF+@-n2_PcC?';                         // SMTP password
+	$mail->SMTPSecure = 'tls';                          // Enable encryption, 'ssl' also accepted
 
 	$mail->From = $email;
 	$mail->FromName = $_POST['name'];
