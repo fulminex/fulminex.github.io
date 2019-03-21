@@ -43,7 +43,7 @@ if($to) {
 	
 	// Optional Settings
 	$mail->Host = 'smtp.gmail.com';				  // Specify main and backup server
-	$mail->Port = 587; 
+	$mail->Port = 465; 
 	$mail->SMTPAuth = true;                             // Enable SMTP authentication
 	$mail->Username = 'angelherreratest@gmail.com';             		  // SMTP username
 	$mail->Password = 'hNq=iW79TF+@-n2_PcC?';                         // SMTP password
