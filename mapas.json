@@ -1,0 +1,868 @@
+{
+   "mapPoints":[
+      {
+         "textMarker":"A",
+         "title":"Edificio A",
+         "latitude":-12.084011,
+         "longitude":-76.971725,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"B",
+         "title":"Edificio B",
+         "latitude":-12.08437,
+         "longitude":-76.971685,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"C",
+         "title":"Edificio C",
+         "latitude":-12.084672,
+         "longitude":-76.972813,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"CH",
+         "title":"Edificio CH(Cafetería)",
+         "latitude":-12.084106,
+         "longitude":-76.970792,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"D",
+         "title":"Edificio D",
+         "latitude":-12.085336,
+         "longitude":-76.971564,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"E",
+         "title":"Edificio E",
+         "latitude":-12.084992,
+         "longitude":-76.971993,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"F",
+         "title":"Edificio F(Bienestar)",
+         "latitude":-12.084709,
+         "longitude":-76.971907,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"G",
+         "title":"Edificio G",
+         "latitude":-12.084858,
+         "longitude":-76.97088,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"H",
+         "title":"Edificio H",
+         "latitude":-12.084203,
+         "longitude":-76.972133,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"I",
+         "title":"Edificio I",
+         "latitude":-12.083935,
+         "longitude":-76.970652,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"LL",
+         "title":"Edificio LL(Biblioteca)",
+         "latitude":-12.085333,
+         "longitude":-76.971931,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"N",
+         "title":"Edificio N",
+         "latitude":-12.084071,
+         "longitude":-76.972553,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"O",
+         "title":"Edificio O",
+         "latitude":-12.085601,
+         "longitude":-76.971784,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"Q",
+         "title":"Edificio Q",
+         "latitude":-12.0841,
+         "longitude":-76.97019,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"R",
+         "title":"Edificio R",
+         "latitude":-12.085742,
+         "longitude":-76.970521,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"S",
+         "title":"Edificio S",
+         "latitude":-12.08453,
+         "longitude":-76.9704,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"TA",
+         "title":"Edificio TA",
+         "latitude":-12.085267,
+         "longitude":-76.970142,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"TB",
+         "title":"Edificio TB",
+         "latitude":-12.084939,
+         "longitude":-76.969994,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"V",
+         "title":"Edificio V",
+         "latitude":-12.084215,
+         "longitude":-76.972918,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"W",
+         "title":"Edificio W",
+         "latitude":-12.085545,
+         "longitude":-76.971288,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"Z",
+         "title":"Edificio Z",
+         "latitude":-12.084336,
+         "longitude":-76.970906,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio A Piso 1",
+         "latitude":-12.084041,
+         "longitude":-76.971631,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Ayudando abrigando"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio A Piso 4",
+         "latitude":-12.084067,
+         "longitude":-76.971717,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Tapas de botellas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio B Piso 1",
+         "latitude":-12.084439,
+         "longitude":-76.971631,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio C Piso 1",
+         "latitude":-12.084712,
+         "longitude":-76.972849,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio C Piso 1",
+         "latitude":-12.084712,
+         "longitude":-76.972849,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio C Piso 1",
+         "latitude":-12.084726,
+         "longitude":-76.972908,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Aniquem"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Taller de Gasfiteria",
+         "latitude":-12.0846,
+         "longitude":-76.972726,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Taller de Gasfiteria",
+         "latitude":-12.0846,
+         "longitude":-76.972726,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Vidrio"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Taller de Gasfiteria",
+         "latitude":-12.0846,
+         "longitude":-76.972726,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Pilas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio D Piso 4",
+         "latitude":-12.085436,
+         "longitude":-76.971626,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Ayudando abrigando"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio E Piso 1",
+         "latitude":-12.084932,
+         "longitude":-76.971921,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Ayudando abrigando"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio F(Bienestar) Piso 2, Piso 3",
+         "latitude":-12.084741,
+         "longitude":-76.971841,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio F(Bienestar) Piso 3",
+         "latitude":-12.084707,
+         "longitude":-76.971851,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Tapas de botellas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio F(Kiosco)",
+         "latitude":-12.084621,
+         "longitude":-76.972093,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Pilas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio F(Kiosco)",
+         "latitude":-12.084621,
+         "longitude":-76.972093,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Bienaventuranzas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G Piso 1",
+         "latitude":-12.085161,
+         "longitude":-76.970999,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G Piso 1",
+         "latitude":-12.085161,
+         "longitude":-76.970999,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G Piso 1",
+         "latitude":-12.084715,
+         "longitude":-76.970769,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Vidrio"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G Piso 1",
+         "latitude":-12.084775,
+         "longitude":-76.97066,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G Pasillo lateral",
+         "latitude":-12.085441,
+         "longitude":-76.971062,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Aniquem"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G Pasillo lateral",
+         "latitude":-12.085441,
+         "longitude":-76.971062,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Pilas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio H Piso 1",
+         "latitude":-12.084266,
+         "longitude":-76.972076,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G (Kiosco)",
+         "latitude":-12.084904,
+         "longitude":-76.97109,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Vidrio"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G (Kiosco)",
+         "latitude":-12.084904,
+         "longitude":-76.97109,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G (Kiosco)",
+         "latitude":-12.084904,
+         "longitude":-76.97109,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Bienaventuranzas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio LL(Biblioteca)",
+         "latitude":-12.085352,
+         "longitude":-76.971878,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio R Piso 1",
+         "latitude":-12.085971,
+         "longitude":-76.970338,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio R Piso 1",
+         "latitude":-12.085971,
+         "longitude":-76.970338,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio R Piso 1",
+         "latitude":-12.085971,
+         "longitude":-76.970338,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Aniquem"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Piso 1",
+         "latitude":-12.084526,
+         "longitude":-76.970398,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico - Ayudando abrigando"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Piso 1",
+         "latitude":-12.084534,
+         "longitude":-76.970392,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Piso 1",
+         "latitude":-12.084534,
+         "longitude":-76.970392,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Vidrio"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Piso 1-Piso 4",
+         "latitude":-12.084534,
+         "longitude":-76.970392,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Piso 1",
+         "latitude":-12.084534,
+         "longitude":-76.970392,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Tapas de botellas"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Puerta Principal",
+         "latitude":-12.084639,
+         "longitude":-76.970215,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Vidrio"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio S Puerta Principal",
+         "latitude":-12.084639,
+         "longitude":-76.970215,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio TA Piso 1-Piso 11",
+         "latitude":-12.085294,
+         "longitude":-76.969882,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio TA Piso 1-Piso 11",
+         "latitude":-12.085294,
+         "longitude":-76.969882,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio TB Piso 1-Piso 11",
+         "latitude":-12.084938,
+         "longitude":-76.969936,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio TB Piso 1-Piso 11",
+         "latitude":-12.084938,
+         "longitude":-76.969936,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificios T (Aulas Magnas)",
+         "latitude":-12.085064,
+         "longitude":-76.969786,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificios T (Comedor)",
+         "latitude":-12.085237,
+         "longitude":-76.96978,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio V Piso 7",
+         "latitude":-12.084243,
+         "longitude":-76.972887,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio V Piso 7",
+         "latitude":-12.084313,
+         "longitude":-76.972881,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Plástico"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio W (Arquitectura) Piso 3 - Piso 5",
+         "latitude":-12.085578,
+         "longitude":-76.971545,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Papel"
+      },
+      {
+         "iconMarker":"BicicletaIcon",
+         "title":"Puerta 8",
+         "latitude":-12.084277,
+         "longitude":-76.969952,
+         "category":{
+            "name":"Estacionamiento",
+            "isEnabledMultipleSelection":false,
+            "order":1
+         },
+         "subCategory":"Bicicleta"
+      },
+      {
+         "iconMarker":"BicicletaIcon",
+         "title":"Puerta 8",
+         "latitude":-12.08467,
+         "longitude":-76.96992,
+         "category":{
+            "name":"Estacionamiento",
+            "isEnabledMultipleSelection":false,
+            "order":1
+         },
+         "subCategory":"Bicicleta"
+      },
+      {
+         "iconMarker":"BicicletaIcon",
+         "title":"Estacionamiento Cruz del Sur",
+         "latitude":-12.086265,
+         "longitude":-76.9714,
+         "category":{
+            "name":"Estacionamiento",
+            "isEnabledMultipleSelection":false,
+            "order":1
+         },
+         "subCategory":"Bicicleta"
+      },
+      {
+         "iconMarker":"BicicletaIcon",
+         "title":"Edificio C",
+         "latitude":-12.084597,
+         "longitude":-76.972575,
+         "category":{
+            "name":"Estacionamiento",
+            "isEnabledMultipleSelection":false,
+            "order":1
+         },
+         "subCategory":"Bicicleta"
+      },
+      {
+         "iconMarker":"CarroIcon",
+         "title":"Edificios T (Sotano 2)",
+         "latitude":-12.085116,
+         "longitude":-76.969914,
+         "category":{
+            "name":"Estacionamiento",
+            "isEnabledMultipleSelection":false,
+            "order":1
+         },
+         "subCategory":"Estacionamientos LEV"
+      },
+      {
+         "colorMarker":"#99cc00",
+         "title":"Edificio G",
+         "latitude":-12.084941,
+         "longitude":-76.970865,
+         "category":{
+            "name":"Ulima Green",
+            "isEnabledMultipleSelection":true,
+            "order":2
+         },
+         "subCategory":"Pilas"
+      }
+   ]
+}
