@@ -1,6 +1,258 @@
 {
    "mapPoints":[
       {
+         "textMarker":"A",
+         "title":"Edificio A",
+         "latitude":-12.084011,
+         "longitude":-76.971725,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"B",
+         "title":"Edificio B",
+         "latitude":-12.08437,
+         "longitude":-76.971685,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"C",
+         "title":"Edificio C",
+         "latitude":-12.084672,
+         "longitude":-76.972813,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"CH",
+         "title":"Edificio CH(Cafetería)",
+         "latitude":-12.084106,
+         "longitude":-76.970792,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"D",
+         "title":"Edificio D",
+         "latitude":-12.085336,
+         "longitude":-76.971564,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"E",
+         "title":"Edificio E",
+         "latitude":-12.084992,
+         "longitude":-76.971993,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"F",
+         "title":"Edificio F(Bienestar)",
+         "latitude":-12.084709,
+         "longitude":-76.971907,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"G",
+         "title":"Edificio G",
+         "latitude":-12.084858,
+         "longitude":-76.97088,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"H",
+         "title":"Edificio H",
+         "latitude":-12.084203,
+         "longitude":-76.972133,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"I",
+         "title":"Edificio I",
+         "latitude":-12.083935,
+         "longitude":-76.970652,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"LL",
+         "title":"Edificio LL(Biblioteca)",
+         "latitude":-12.085333,
+         "longitude":-76.971931,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"N",
+         "title":"Edificio N",
+         "latitude":-12.084071,
+         "longitude":-76.972553,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"O",
+         "title":"Edificio O",
+         "latitude":-12.085601,
+         "longitude":-76.971784,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"Q",
+         "title":"Edificio Q",
+         "latitude":-12.0841,
+         "longitude":-76.97019,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"R",
+         "title":"Edificio R",
+         "latitude":-12.085742,
+         "longitude":-76.970521,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"S",
+         "title":"Edificio S",
+         "latitude":-12.08453,
+         "longitude":-76.9704,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"TA",
+         "title":"Edificio TA",
+         "latitude":-12.085267,
+         "longitude":-76.970142,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"TB",
+         "title":"Edificio TB",
+         "latitude":-12.084939,
+         "longitude":-76.969994,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"V",
+         "title":"Edificio V",
+         "latitude":-12.084215,
+         "longitude":-76.972918,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"W",
+         "title":"Edificio W",
+         "latitude":-12.085545,
+         "longitude":-76.971288,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
+         "textMarker":"Z",
+         "title":"Edificio Z",
+         "latitude":-12.084336,
+         "longitude":-76.970906,
+         "category":{
+            "name":"Edificios",
+            "isEnabledMultipleSelection":true,
+            "order":0
+         },
+         "subCategory":"Pabellones"
+      },
+      {
          "colorMarker":"#99cc00",
          "title":"Edificio A Piso 1",
          "latitude":-12.084041,
