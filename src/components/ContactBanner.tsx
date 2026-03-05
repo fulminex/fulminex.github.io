@@ -1,4 +1,4 @@
-import { socialLinks } from '../data/mockData';
+import { socialLinks, isOpenForOpportunities } from '../data/mockData';
 
 export interface ContactBannerProps { }
 
@@ -12,7 +12,7 @@ export default function ContactBanner({ }: ContactBannerProps) {
                 <div className="relative z-10 max-w-2xl mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's build the next big thing</h2>
                     <p className="text-slate-300 mb-8 text-lg">
-                        I'm currently available for senior roles and consulting opportunities. If you value clean code and premium user experiences, let's talk.
+                        I'm currently available for {isOpenForOpportunities && "senior roles and "}consulting opportunities. If you value clean code and premium user experiences, let's talk.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
