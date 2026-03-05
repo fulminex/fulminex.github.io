@@ -52,7 +52,7 @@ export default function Header({ }: HeaderProps) {
 
             {/* Mobile Navigation */}
             {isMenuOpen && (
-                <div className="md:hidden border-t border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark animate-in slide-in-from-top duration-200">
+                <div className="md:hidden border-t border-slate-200 dark:border-slate-800 animate-in slide-in-from-top duration-200">
                     <nav className="flex flex-col p-4 gap-4">
                         {navLinks.map((link) => (
                             <a
