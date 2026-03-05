@@ -28,3 +28,30 @@ export function smoothScrollTo(href: string, offset = 0, duration = 700): void {
 
     requestAnimationFrame(step);
 }
+
+/**
+ * Smooth scroll back to the top of the page.
+ * Uses an ease-out quart curve for a natural deceleration (optimized for iOS/Safari).
+ *
+ * @param duration - Animation duration in milliseconds (default: 600)
+ * @returns        - A `cancel()` function to abort the animation mid-flight
+ */
+export function scrollToTop(duration = 600): () => void {
+    const startPosition = window.scrollY;
+    let startTime: number | null = null;
+    let rafId: number;
+
+    /** Ease-out quart: fast start, gradual slow-down */
+    const ease = (t: number) => 1 - Math.pow(1 - t, 4);
+
+    const animation = (currentTime: number) => {
+        if (startTime === null) startTime = currentTime;
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+        window.scrollTo(0, startPosition * (1 - ease(progress)));
+        if (progress < 1) rafId = requestAnimationFrame(animation);
+    };
+
+    rafId = requestAnimationFrame(animation);
+
+    return () => cancelAnimationFrame(rafId);
+}
