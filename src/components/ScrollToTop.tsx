@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function ScrollToTop() {
     const [isVisible, setIsVisible] = useState(false);
+    const requestRef = useRef<number>();
 
     // Show button when page is scrolled up to given distance
     const toggleVisibility = () => {
@@ -12,18 +13,41 @@ export default function ScrollToTop() {
         }
     };
 
-    // Set the top cordinate to 0
-    // make scrolling smooth
+    // Custom smooth scroll implementation with interrupt support
     const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
+        const currentPos = window.scrollY;
+
+        if (currentPos > 0) {
+            window.scrollTo(0, currentPos - currentPos / 10);
+            requestRef.current = window.requestAnimationFrame(scrollToTop);
+        } else {
+            // Stop animation when reaching the top
+            if (requestRef.current) {
+                window.cancelAnimationFrame(requestRef.current);
+            }
+        }
+    };
+
+    // Cancel scroll animation if user interacts (scrolls manually)
+    const handleWheel = () => {
+        if (requestRef.current) {
+            window.cancelAnimationFrame(requestRef.current);
+        }
     };
 
     useEffect(() => {
         window.addEventListener('scroll', toggleVisibility);
-        return () => window.removeEventListener('scroll', toggleVisibility);
+        window.addEventListener('wheel', handleWheel, { passive: true });
+        window.addEventListener('touchmove', handleWheel, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', toggleVisibility);
+            window.removeEventListener('wheel', handleWheel);
+            window.removeEventListener('touchmove', handleWheel);
+            if (requestRef.current) {
+                window.cancelAnimationFrame(requestRef.current);
+            }
+        };
     }, []);
 
     return (
