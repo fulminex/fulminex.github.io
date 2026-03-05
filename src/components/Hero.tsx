@@ -14,7 +14,7 @@ export default function Hero({ }: HeroProps) {
             <div className="layout-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                     <div className="flex-1 flex flex-col gap-6 text-center lg:text-left">
-                        <div className="md:hidden inline-flex items-center gap-2 self-center lg:self-start px-3 py-1 rounded-full bg-slate-200 dark:bg-surface-dark border border-slate-300 dark:border-slate-700 backdrop-blur-sm">
+                        <div className="hidden items-center gap-2 self-center lg:self-start px-3 py-1 rounded-full bg-slate-200 dark:bg-surface-dark border border-slate-300 dark:border-slate-700 backdrop-blur-sm">
                             <span className="relative flex h-2 w-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
