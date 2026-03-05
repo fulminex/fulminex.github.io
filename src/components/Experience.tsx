@@ -57,7 +57,7 @@ export default function Experience({ }: ExperienceProps) {
                         </div>
                         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white dark:bg-surface-dark p-6 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-lg hover:border-primary/30 transition-all duration-300">
                             <div className="flex items-center justify-between mb-2">
-                                <h3 className="font-bold text-slate-900 dark:text-white">Software Engineer II - iOS)</h3>
+                                <h3 className="font-bold text-slate-900 dark:text-white">Software Engineer II - iOS</h3>
                                 <span className="text-xs font-medium px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 text-slate-500">2020 - 2021</span>
                             </div>
                             <div className="text-sm text-slate-500 dark:text-slate-400 mb-4 font-mono">Avantica • Feb 2020 - May 2021</div>

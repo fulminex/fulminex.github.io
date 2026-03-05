@@ -40,7 +40,7 @@ export default function Hero({ }: HeroProps) {
                             </a>
                         </div>
 
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-slate-200 dark:border-slate-800 mt-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-200 dark:border-slate-800 mt-4 text-center sm:text-left">
                             <div>
                                 <div className="text-3xl font-bold text-slate-900 dark:text-white">{calculateYearsOfExperience()}+</div>
                                 <div className="text-sm text-slate-500 dark:text-slate-400">Years Experience</div>
@@ -76,7 +76,8 @@ export default function Hero({ }: HeroProps) {
                                     <div className="pl-0">{"}"}</div>
                                 </div>
                             </div>
-                            <div className="absolute top-1/4 -right-4 md:-right-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform rotate-3 animate-[pulse_4s_ease-in-out_infinite]">
+                            {/* Floating Cards - Scaled for Mobile */}
+                            <div className="absolute top-1/4 -right-2 md:-right-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform rotate-3 scale-75 md:scale-100 animate-[pulse_4s_ease-in-out_infinite] z-20">
                                 <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-xs">A</div>
                                     <div>
@@ -85,7 +86,7 @@ export default function Hero({ }: HeroProps) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="absolute bottom-1/4 -left-4 md:-left-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform -rotate-2 animate-[pulse_4s_ease-in-out_infinite]">
+                            <div className="absolute bottom-1/4 -left-2 md:-left-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform -rotate-2 scale-75 md:scale-100 animate-[pulse_4s_ease-in-out_infinite] z-20">
                                 <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white">
                                         <span className="material-symbols-outlined text-sm">rocket_launch</span>
