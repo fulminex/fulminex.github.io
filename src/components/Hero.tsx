@@ -84,7 +84,7 @@ export default function Hero({ }: HeroProps) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="absolute bottom-1/4 -left-4 md:-left-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform -rotate-2">
+                            <div className="absolute bottom-1/4 -left-4 md:-left-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform -rotate-2 animate-[pulse_4s_ease-in-out_infinite]">
                                 <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white">
                                         <span className="material-symbols-outlined text-sm">rocket_launch</span>
