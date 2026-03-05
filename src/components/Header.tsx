@@ -39,7 +39,7 @@ export default function Header({ }: HeaderProps) {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+                        className="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
                         onClick={toggleMenu}
                         aria-label="Toggle menu"
                     >
