@@ -55,13 +55,20 @@ export default function Header({ }: HeaderProps) {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+                        className="md:hidden flex items-center justify-center p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors overflow-hidden"
                         onClick={toggleMenu}
                         aria-label="Toggle menu"
                     >
-                        <span className="material-symbols-outlined">
-                            {isMenuOpen ? 'close' : 'menu'}
-                        </span>
+                        <div className="relative w-6 h-6">
+                            <span className={`absolute inset-0 material-symbols-outlined transition-all duration-300 transform ${isMenuOpen ? 'rotate-90 opacity-0 scale-0' : 'rotate-0 opacity-100 scale-100'
+                                }`}>
+                                menu
+                            </span>
+                            <span className={`absolute inset-0 material-symbols-outlined transition-all duration-300 transform ${isMenuOpen ? 'rotate-0 opacity-100 scale-100' : '-rotate-90 opacity-0 scale-0'
+                                }`}>
+                                close
+                            </span>
+                        </div>
                     </button>
                 </div>
             </div>
@@ -69,8 +76,8 @@ export default function Header({ }: HeaderProps) {
             {/* Mobile Navigation */}
             <div
                 className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen
-                        ? 'max-h-64 opacity-100 border-t border-slate-200 dark:border-slate-800'
-                        : 'max-h-0 opacity-0'
+                    ? 'max-h-64 opacity-100 border-t border-slate-200 dark:border-slate-800'
+                    : 'max-h-0 opacity-0'
                     }`}
             >
                 <nav className="flex flex-col p-4 gap-4">
