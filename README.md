@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# iOS Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and highly performant personal portfolio showcasing the professional journey, technical expertise, and projects.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Architecture**: Built with React and TypeScript for strong typing and component-based organization.
+- **Lightning Fast**: Powered by Vite for instant server start and lightning-fast HMR.
+- **Premium Design**: Styled with Tailwind CSS, featuring glassmorphism, smooth animations, and a sleek dark mode aesthetic.
+- **Responsive Layout**: Adapts perfectly to mobile, tablet, and desktop screens.
+- **Interactive Elements**: Includes subtle micro-interactions and hover states to enhance user engagement.
+- **Automated Deployment**: CI/CD pipeline set up using GitHub Actions to deploy seamlessly to GitHub Pages.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Material Symbols](https://fonts.google.com/icons)
+- **Deployment**: [GitHub Pages](https://pages.github.com/)
 
-## Expanding the ESLint configuration
+## 🏃‍♂️ Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+To get a local copy up and running, follow these simple steps.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Node.js (v20 or higher recommended)
+- npm or yarn
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/fulminex/fulminex.github.io.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd fulminex.github.io
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Start the development server
+   ```sh
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:5173`
+
+## 📦 Building for Production
+
+To create a production-ready build:
+
+```sh
+npm run build
+```
+This will generate optimized static assets in the `dist` folder.
+
+To preview the production build locally:
+```sh
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project uses **GitHub Actions** for continuous deployment. Any changes pushed to the `master` branch will automatically trigger the `.github/workflows/deploy.yml` workflow, which builds the Vite project and deploys the `dist` folder directly to GitHub Pages.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Live Site**: [Angel Herrera - Portfolio](https://fulminex.github.io/)
