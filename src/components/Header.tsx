@@ -67,22 +67,25 @@ export default function Header({ }: HeaderProps) {
             </div>
 
             {/* Mobile Navigation */}
-            {isMenuOpen && (
-                <div className="md:hidden border-t border-slate-200 dark:border-slate-800 animate-in slide-in-from-top duration-200">
-                    <nav className="flex flex-col p-4 gap-4">
-                        {navLinks.map((link) => (
-                            <a
-                                key={link.href}
-                                className="text-base font-medium py-2 px-4 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
-                                href={link.href}
-                                onClick={(e) => handleNavClick(e, link.href)}
-                            >
-                                {link.label}
-                            </a>
-                        ))}
-                    </nav>
-                </div>
-            )}
+            <div
+                className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMenuOpen
+                        ? 'max-h-64 opacity-100 border-t border-slate-200 dark:border-slate-800'
+                        : 'max-h-0 opacity-0'
+                    }`}
+            >
+                <nav className="flex flex-col p-4 gap-4">
+                    {navLinks.map((link) => (
+                        <a
+                            key={link.href}
+                            className="text-base font-medium py-2 px-4 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+                            href={link.href}
+                            onClick={(e) => handleNavClick(e, link.href)}
+                        >
+                            {link.label}
+                        </a>
+                    ))}
+                </nav>
+            </div>
         </header>
     );
 }
