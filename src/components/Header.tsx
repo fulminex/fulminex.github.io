@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { smoothScrollTo } from '../utils/smoothScroll';
 
 export interface HeaderProps { }
@@ -8,6 +8,12 @@ export default function Header({ }: HeaderProps) {
     const headerRef = useRef<HTMLElement>(null);
 
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+    useEffect(() => {
+        const close = () => setIsMenuOpen(false);
+        window.addEventListener('header:close', close);
+        return () => window.removeEventListener('header:close', close);
+    }, []);
 
     const navLinks = [
         { href: "#experience", label: "Experience" },
