@@ -33,7 +33,7 @@ export default function Hero({ }: HeroProps) {
                                 href={socialLinks.linkedin}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-primary text-white font-bold hover:bg-blue-600 transition-colors shadow-lg shadow-primary/25"
+                                className="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-primary text-white font-bold hover:bg-blue-600 hover:scale-105 hover:shadow-xl hover:shadow-primary/30 active:scale-95 transition-all duration-300 shadow-lg shadow-primary/25"
                             >
                                 Get In Touch
                             </a>
