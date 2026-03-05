@@ -8,3 +8,5 @@ export const careerStart = {
     year: 2017,
     month: 8, // September (0-indexed)
 };
+
+export const isOpenForOpportunities = false;
