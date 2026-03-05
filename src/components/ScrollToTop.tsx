@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 
 export default function ScrollToTop() {
     const [isVisible, setIsVisible] = useState(false);
-    const requestRef = useRef<number>();
+    const requestRef = useRef<number | null>(null);
 
     // Show button when page is scrolled up to given distance
     const toggleVisibility = () => {
