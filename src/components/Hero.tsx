@@ -1,6 +1,8 @@
 import { socialLinks, careerStart, isOpenForOpportunities } from '../data/mockData';
 import { calculateYearsOfExperience } from '../utils/dateUtils';
 
+const yearsOfExperience = calculateYearsOfExperience();
+
 export interface HeroProps { }
 
 export default function Hero({ }: HeroProps) {
@@ -13,7 +15,7 @@ export default function Hero({ }: HeroProps) {
             <div className="layout-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                     <div className="flex-1 flex flex-col gap-6 text-center lg:text-left">
-                        {isOpenForOpportunities && (
+                        {isOpenForOpportunities ? (
                             <div className="inline-flex items-center gap-2 self-center lg:self-start px-3 py-1 rounded-full bg-slate-200 dark:bg-surface-dark border border-slate-300 dark:border-slate-700 backdrop-blur-sm">
                                 <span className="relative flex h-2 w-2">
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
@@ -21,7 +23,7 @@ export default function Hero({ }: HeroProps) {
                                 </span>
                                 <span className="text-xs font-medium text-slate-600 dark:text-slate-300">Open for opportunities</span>
                             </div>
-                        )}
+                        ) : null}
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight tracking-tight text-slate-900 dark:text-white">
                             Senior iOS
                             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-indigo-400">Engineering</span>
@@ -42,7 +44,7 @@ export default function Hero({ }: HeroProps) {
 
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-200 dark:border-slate-800 mt-4 text-center sm:text-left">
                             <div>
-                                <div className="text-3xl font-bold text-slate-900 dark:text-white">{calculateYearsOfExperience()}+</div>
+                                <div className="text-3xl font-bold text-slate-900 dark:text-white">{yearsOfExperience}+</div>
                                 <div className="text-sm text-slate-500 dark:text-slate-400">Years Experience</div>
                             </div>
                             <div>

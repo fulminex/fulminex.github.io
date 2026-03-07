@@ -1,6 +1,8 @@
 import { socialLinks } from '../data/mockData';
 import ContactBanner from './ContactBanner';
 
+const currentYear = new Date().getFullYear();
+
 export interface FooterProps { }
 
 export default function Footer({ }: FooterProps) {
@@ -25,7 +27,7 @@ export default function Footer({ }: FooterProps) {
                 </div>
 
                 <p className="text-slate-500 text-sm">
-                    © {new Date().getFullYear()}. All rights reserved.
+                    © {currentYear}. All rights reserved.
                 </p>
             </div>
         </footer >

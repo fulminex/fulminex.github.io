@@ -1,25 +1,25 @@
 import { useEffect, useRef, useState } from 'react';
 import { smoothScrollTo } from '../utils/smoothScroll';
 
+const navLinks = [
+    { href: "#experience", label: "Experience" },
+    { href: "#skills", label: "Tech Stack" },
+    { href: "#contact", label: "Contact" },
+];
+
 export interface HeaderProps { }
 
 export default function Header({ }: HeaderProps) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const headerRef = useRef<HTMLElement>(null);
 
-    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+    const toggleMenu = () => setIsMenuOpen(prev => !prev);
 
     useEffect(() => {
         const close = () => setIsMenuOpen(false);
         window.addEventListener('header:close', close);
         return () => window.removeEventListener('header:close', close);
     }, []);
-
-    const navLinks = [
-        { href: "#experience", label: "Experience" },
-        { href: "#skills", label: "Tech Stack" },
-        { href: "#contact", label: "Contact" },
-    ];
 
     const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
         e.preventDefault();

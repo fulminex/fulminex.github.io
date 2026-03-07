@@ -2,7 +2,7 @@ export interface ExperienceProps { }
 
 export default function Experience({ }: ExperienceProps) {
     return (
-        <section id="experience" className="py-16 bg-slate-50 dark:bg-background-dark border-t border-slate-200 dark:border-slate-800">
+        <section id="experience" className="py-16 bg-slate-50 dark:bg-background-dark border-t border-slate-200 dark:border-slate-800" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 1000px' }}>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">Professional Journey</h2>

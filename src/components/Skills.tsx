@@ -2,7 +2,7 @@ export interface SkillsProps { }
 
 export default function Skills({ }: SkillsProps) {
     return (
-        <section id="skills" className="py-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark">
+        <section id="skills" className="py-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 800px' }}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl font-bold mb-10 text-center text-slate-900 dark:text-white">Technical Arsenal</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
