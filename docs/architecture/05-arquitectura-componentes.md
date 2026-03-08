@@ -4,7 +4,7 @@ La aplicación adopta una arquitectura de componentes plana, donde pequeños com
 
 ## Flujo de Datos
 
-1. Los datos están completamente desacoplados de la interfaz. Todo el contenido textual, enlaces y listas (como la línea de tiempo de experiencia) viven en `src/data/mockData.ts`.
+1. Los datos están completamente desacoplados de la interfaz. Todo el contenido textual, enlaces y listas (como la línea de tiempo de experiencia) viven en módulos dedicados dentro de `src/data/` (`owner.ts`, `hero.ts`, `experience.ts`, `skills.ts`, `contact.ts`, `navigation.ts`), con interfaces tipadas en `src/data/types/`.
 2. Los componentes especializados dentro de `src/components/` importan únicamente los datos estrictamente necesarios para el renderizado.
 3. El componente `App.tsx` sirve como el contenedor raíz de la aplicación, importando los componentes individuales de features (`Hero`, `Experience`, `Skills`, etc.) y organizando el diseño del DOM utilizando etiquetas de HTML5 semántico (`<main>`, `<header>`, `<footer>`).
 

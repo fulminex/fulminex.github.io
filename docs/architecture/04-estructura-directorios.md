@@ -20,7 +20,19 @@ fulminex.github.io/
 │   │   ├── ScrollToTop.tsx
 │   │   └── Skills.tsx
 │   ├── data/                   # Capa de Acceso a Datos
-│   │   └── mockData.ts         # Estado centralizado y contenido de la app
+│   │   ├── types/              # Interfaces TypeScript por dominio
+│   │   │   ├── owner.ts        # SiteOwner, SocialLinks, CareerStart
+│   │   │   ├── navigation.ts   # NavLink
+│   │   │   ├── hero.ts         # HeroContent, HeroStat, HeroFloatingCard
+│   │   │   ├── experience.ts   # TimelineEntry
+│   │   │   ├── skills.ts       # SkillCategory, SkillDisplayMode
+│   │   │   └── contact.ts      # ContactContent, TestimonialContent
+│   │   ├── owner.ts            # Identidad del propietario, redes sociales, disponibilidad
+│   │   ├── navigation.ts       # Enlaces de navegación
+│   │   ├── hero.ts             # Contenido de la sección Hero
+│   │   ├── experience.ts       # Línea de tiempo profesional
+│   │   ├── skills.ts           # Categorías de habilidades técnicas
+│   │   └── contact.ts          # Contenido de contacto y testimonial
 │   ├── hooks/                  # Custom React Hooks
 │   ├── utils/                  # Funciones de ayuda (formato de fechas, scroll suave)
 │   ├── App.css                 # Estilos globales (Capas de Tailwind)

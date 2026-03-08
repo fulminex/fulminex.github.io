@@ -7,7 +7,7 @@ Aceptado
 Las secciones del portafolio (Hero, Experiencia y Habilidades) deben ser fácilmente actualizables a medida que la carrera progrese sin requerir intervenciones excesivas ni escaneo de múltiples de archivos UI buscando textos.
 
 ## Decisión
-Centralizar todas las cadenas de texto, enlaces de contacto, la línea paramétrica de tiempo e insignias en un único modelo de datos en `src/data/mockData.ts`. La capa de visualización (los componentes de `src/components/`) simplemente importa y mapea los arreglos generados acá y los transforma en componentes de React. 
+Centralizar todas las cadenas de texto, enlaces de contacto, la línea paramétrica de tiempo e insignias en módulos de datos tipados dentro de `src/data/` (ej. `owner.ts`, `hero.ts`, `experience.ts`, `skills.ts`, `contact.ts`, `navigation.ts`). La capa de visualización (los componentes de `src/components/`) simplemente importa y mapea los arreglos generados acá y los transforma en componentes de React.
 
 ## Consecuencias
 * **Positivas:** 

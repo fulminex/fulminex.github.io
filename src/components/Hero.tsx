@@ -1,4 +1,5 @@
-import { socialLinks, careerStart, isOpenForOpportunities } from '../data/mockData';
+import { socialLinks, careerStart, isOpenForOpportunities } from '../data/owner';
+import { heroContent } from '../data/hero';
 import { calculateYearsOfExperience } from '../utils/dateUtils';
 
 const yearsOfExperience = calculateYearsOfExperience();
@@ -6,6 +7,11 @@ const yearsOfExperience = calculateYearsOfExperience();
 export interface HeroProps { }
 
 export default function Hero({ }: HeroProps) {
+    const resolveTemplate = (text: string) =>
+        text
+            .replace('{careerStartYear}', String(careerStart.year))
+            .replace('{yearsOfExperience}', String(yearsOfExperience));
+
     return (
         <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 overflow-hidden">
             <div className="absolute inset-0 z-0 pointer-events-none">
@@ -25,11 +31,11 @@ export default function Hero({ }: HeroProps) {
                             </div>
                         ) : null}
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight tracking-tight text-slate-900 dark:text-white">
-                            Senior iOS
-                            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-indigo-400">Engineering</span>
+                            {heroContent.headline.line1}
+                            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-indigo-400">{heroContent.headline.line2}</span>
                         </h1>
                         <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                            Technology Architect &amp; iOS Expert delivering robust, scalable mobile solutions since {careerStart.year}. Specialized in modern SwiftUI achitectures, high-performance computing, and crafting pixel-perfect Apple ecosystem experiences.
+                            {resolveTemplate(heroContent.description)}
                         </p>
                         <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
                             <a
@@ -38,23 +44,17 @@ export default function Hero({ }: HeroProps) {
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-primary text-white font-bold hover:bg-blue-600 hover:scale-105 hover:shadow-xl hover:shadow-primary/30 active:scale-95 transition-all duration-300 shadow-lg shadow-primary/25"
                             >
-                                Get In Touch
+                                {heroContent.ctaLabel}
                             </a>
                         </div>
 
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-200 dark:border-slate-800 mt-4 text-center sm:text-left">
-                            <div>
-                                <div className="text-3xl font-bold text-slate-900 dark:text-white">{yearsOfExperience}+</div>
-                                <div className="text-sm text-slate-500 dark:text-slate-400">Years Experience</div>
-                            </div>
-                            <div>
-                                <div className="text-3xl font-bold text-slate-900 dark:text-white">6+</div>
-                                <div className="text-sm text-slate-500 dark:text-slate-400">Apps Shipped</div>
-                            </div>
-                            <div>
-                                <div className="text-3xl font-bold text-slate-900 dark:text-white">17M+</div>
-                                <div className="text-sm text-slate-500 dark:text-slate-400">Users Impacted</div>
-                            </div>
+                            {heroContent.stats.map((stat) => (
+                                <div key={stat.label}>
+                                    <div className="text-3xl font-bold text-slate-900 dark:text-white">{resolveTemplate(stat.value)}</div>
+                                    <div className="text-sm text-slate-500 dark:text-slate-400">{stat.label}</div>
+                                </div>
+                            ))}
                         </div>
                     </div>
 
@@ -78,24 +78,24 @@ export default function Hero({ }: HeroProps) {
                                     <div className="pl-0">{"}"}</div>
                                 </div>
                             </div>
-                            {/* Floating Cards - Scaled for Mobile */}
+                            {/* Floating Cards */}
                             <div className="absolute top-1/4 -right-2 md:-right-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform rotate-3 scale-75 md:scale-100 animate-[pulse_4s_ease-in-out_infinite] z-20">
                                 <div className="flex items-center gap-3">
-                                    <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white font-bold text-xs">A</div>
+                                    <div className={`w-10 h-10 rounded-full ${heroContent.floatingCards[0].bgColor} flex items-center justify-center text-white font-bold text-xs`}>{heroContent.floatingCards[0].icon}</div>
                                     <div>
-                                        <div className="text-xs text-white font-bold">iOS Architect</div>
-                                        <div className="text-[10px] text-white/60">System Design Expert</div>
+                                        <div className="text-xs text-white font-bold">{heroContent.floatingCards[0].title}</div>
+                                        <div className="text-[10px] text-white/60">{heroContent.floatingCards[0].subtitle}</div>
                                     </div>
                                 </div>
                             </div>
                             <div className="absolute bottom-1/4 -left-2 md:-left-8 bg-white/5 backdrop-blur-xl border border-white/10 p-4 rounded-xl shadow-2xl transform -rotate-2 scale-75 md:scale-100 animate-[pulse_4s_ease-in-out_infinite] z-20">
                                 <div className="flex items-center gap-3">
-                                    <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white">
-                                        <span className="material-symbols-outlined text-sm">rocket_launch</span>
+                                    <div className={`w-10 h-10 rounded-full ${heroContent.floatingCards[1].bgColor} flex items-center justify-center text-white`}>
+                                        <span className="material-symbols-outlined text-sm">{heroContent.floatingCards[1].icon}</span>
                                     </div>
                                     <div>
-                                        <div className="text-xs text-white font-bold">App Store Launch</div>
-                                        <div className="text-[10px] text-white/60">Featured 3x</div>
+                                        <div className="text-xs text-white font-bold">{heroContent.floatingCards[1].title}</div>
+                                        <div className="text-[10px] text-white/60">{heroContent.floatingCards[1].subtitle}</div>
                                     </div>
                                 </div>
                             </div>

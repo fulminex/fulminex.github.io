@@ -1,4 +1,4 @@
-import { socialLinks } from '../data/mockData';
+import { socialLinks, siteOwner } from '../data/owner';
 import ContactBanner from './ContactBanner';
 
 const currentYear = new Date().getFullYear();
@@ -12,7 +12,7 @@ export default function Footer({ }: FooterProps) {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="flex items-center gap-2 text-slate-400">
                     <span className="material-symbols-outlined">terminal</span>
-                    <span className="font-medium">Angel Herrera Medina</span>
+                    <span className="font-medium">{siteOwner.name}</span>
                 </div>
 
                 <div className="flex gap-6">

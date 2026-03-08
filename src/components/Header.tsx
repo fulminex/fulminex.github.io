@@ -1,11 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { smoothScrollTo } from '../utils/smoothScroll';
-
-const navLinks = [
-    { href: "#experience", label: "Experience" },
-    { href: "#skills", label: "Tech Stack" },
-    { href: "#contact", label: "Contact" },
-];
+import { navLinks } from '../data/navigation';
+import { siteOwner } from '../data/owner';
 
 export interface HeaderProps { }
 
@@ -36,7 +32,7 @@ export default function Header({ }: HeaderProps) {
                         <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary/10 text-primary">
                             <span className="material-symbols-outlined text-xl">terminal</span>
                         </div>
-                        <span className="text-lg font-bold tracking-tight">Angel Herrera Medina</span>
+                        <span className="text-lg font-bold tracking-tight">{siteOwner.name}</span>
                     </div>
 
                     {/* Desktop Navigation */}

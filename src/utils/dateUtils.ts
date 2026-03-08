@@ -1,4 +1,4 @@
-import { careerStart } from '../data/mockData';
+import { careerStart } from '../data/owner';
 
 /**
  * Calcula los años de experiencia desde una fecha de inicio (septiembre de 2017 por defecto).
