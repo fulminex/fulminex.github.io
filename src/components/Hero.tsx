@@ -4,6 +4,13 @@ import { calculateYearsOfExperience } from '../utils/dateUtils';
 
 const yearsOfExperience = calculateYearsOfExperience();
 
+const heroBackground = (
+    <div className="absolute inset-0 z-0 pointer-events-none">
+        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px]"></div>
+        <div className="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-indigo-600/10 rounded-full blur-[100px]"></div>
+    </div>
+);
+
 export default function Hero() {
     const resolveTemplate = (text: string) =>
         text
@@ -12,10 +19,7 @@ export default function Hero() {
 
     return (
         <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 overflow-hidden">
-            <div className="absolute inset-0 z-0 pointer-events-none">
-                <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px]"></div>
-                <div className="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-indigo-600/10 rounded-full blur-[100px]"></div>
-            </div>
+            {heroBackground}
             <div className="layout-container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                     <div className="flex-1 flex flex-col gap-6 text-center lg:text-left">

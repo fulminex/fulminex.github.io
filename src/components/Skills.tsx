@@ -22,9 +22,9 @@ function SkillTags({ items, description }: { items: string[]; description?: stri
                     <span key={item} className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-600 rounded-lg text-sm text-slate-700 dark:text-slate-300">{item}</span>
                 ))}
             </div>
-            {description && (
+            {description ? (
                 <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">{description}</p>
-            )}
+            ) : null}
         </>
     );
 }
@@ -49,9 +49,9 @@ function SkillCategoryCard({ category }: { category: SkillCategory }) {
                 <span className={`material-symbols-outlined ${category.iconColor} text-3xl`}>{category.icon}</span>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">{category.title}</h3>
             </div>
-            {category.displayMode === 'list' && <SkillList items={category.items} />}
-            {category.displayMode === 'tags' && <SkillTags items={category.items} description={category.description} />}
-            {category.displayMode === 'grid' && <SkillGrid items={category.items} />}
+            {category.displayMode === 'list' ? <SkillList items={category.items} /> : null}
+            {category.displayMode === 'tags' ? <SkillTags items={category.items} description={category.description} /> : null}
+            {category.displayMode === 'grid' ? <SkillGrid items={category.items} /> : null}
         </div>
     );
 }
