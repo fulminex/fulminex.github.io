@@ -5,8 +5,3 @@ export interface ContactContent {
     ctaLabel: string;
 }
 
-export interface TestimonialContent {
-    quote: string;
-    author: string;
-    role: string;
-}
