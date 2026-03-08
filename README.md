@@ -26,7 +26,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-- Node.js (v20 or higher recommended)
+- Node.js (v24 or higher recommended)
 - npm or yarn
 
 ### Installation

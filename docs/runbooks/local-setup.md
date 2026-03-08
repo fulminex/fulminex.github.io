@@ -5,7 +5,7 @@ Este documento sirve como guía concisa para cualquier desarrollador que decida 
 ## Prerrequisitos (Entorno)
 
 Antes de comenzar, asegúrate de contar con el siguiente software instalado en tu sistema:
-- **Node.js**: Versión 20 o superior. ([Descargar de Node.js](https://nodejs.org/))
+- **Node.js**: Versión 24 o superior. ([Descargar de Node.js](https://nodejs.org/))
 - **Git**: Sistema de control de versiones. ([Descargar Git](https://git-scm.com/))
 - **Un editor de texto**: Con soporte moderno como VS Code, Cursor, o WebStorm.
 

@@ -23,7 +23,7 @@ El flujo cuenta con un único Job estructurado bajo el entorno `ubuntu-latest`.
 
 ### 1. Preparación del Entorno
 * Descarga el código fuente usando `actions/checkout@v4`.
-* Instala **Node.js en su versión 20** mediante `actions/setup-node@v4`, activando la caché para acelerar futuras instalaciones de `npm`.
+* Instala **Node.js en su versión 24** mediante `actions/setup-node@v4`, activando la caché para acelerar futuras instalaciones de `npm`.
 
 ### 2. Construcción (Build)
 * Ejecuta `npm install` para instalar todas las dependencias declaradas.
