@@ -8,9 +8,9 @@ La aplicación utiliza **Vite** como herramienta de empaquetado (build) y servid
 
 ## Índice
 
-1. [Pila Tecnológica](./02-pila-tecnologica.md)
-2. [Principios de Diseño](./03-principios.md)
-3. [Estructura de Directorios](./04-estructura-directorios.md)
-4. [Arquitectura de Componentes y Despliegue](./05-arquitectura-componentes.md)
-5. [Sistema de Diseño (Design System)](./06-design-system.md)
-6. [Arquitectura de Despliegue (CI/CD)](./07-despliegue.md)
+1. [Pila Tecnológica](./01-pila-tecnologica.md)
+2. [Principios de Diseño](./02-principios.md)
+3. [Estructura de Directorios](./03-estructura-directorios.md)
+4. [Arquitectura de Componentes y Despliegue](./04-arquitectura-componentes.md)
+5. [Sistema de Diseño (Design System)](./05-design-system.md)
+6. [Arquitectura de Despliegue (CI/CD)](./06-despliegue.md)
