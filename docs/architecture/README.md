@@ -1,4 +1,4 @@
-# Visión General de la Arquitectura del Proyecto Portafolio
+# Arquitectura
 
 ## Resumen General
 
@@ -6,13 +6,11 @@ Este proyecto consiste en una aplicación web moderna, estática y renderizada e
 
 La aplicación utiliza **Vite** como herramienta de empaquetado (build) y servidor de desarrollo, lo que reduce drásticamente los tiempos de inicio y permite una sustitución de módulos en caliente (HMR) altamente eficiente.
 
-## Índice de Documentación
-
-Para profundizar en los detalles técnicos de la arquitectura del proyecto, consulta los siguientes documentos:
+## Índice
 
 1. [Pila Tecnológica](./02-pila-tecnologica.md)
 2. [Principios de Diseño](./03-principios.md)
 3. [Estructura de Directorios](./04-estructura-directorios.md)
 4. [Arquitectura de Componentes y Despliegue](./05-arquitectura-componentes.md)
 5. [Sistema de Diseño (Design System)](./06-design-system.md)
-6. [Arquitectura de Despliegue (CI/CD)](./07-arquitectura-despliegue.md)
+6. [Arquitectura de Despliegue (CI/CD)](./07-despliegue.md)
