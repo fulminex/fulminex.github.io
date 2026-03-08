@@ -3,9 +3,7 @@ import ContactBanner from './ContactBanner';
 
 const currentYear = new Date().getFullYear();
 
-export interface FooterProps { }
-
-export default function Footer({ }: FooterProps) {
+export default function Footer() {
     return (
         <footer className="mt-16 bg-slate-900 border-t border-slate-800">
             <ContactBanner />

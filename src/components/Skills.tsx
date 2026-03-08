@@ -56,9 +56,7 @@ function SkillCategoryCard({ category }: { category: SkillCategory }) {
     );
 }
 
-export interface SkillsProps { }
-
-export default function Skills({ }: SkillsProps) {
+export default function Skills() {
     return (
         <section id="skills" className="py-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark" style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 800px' }}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

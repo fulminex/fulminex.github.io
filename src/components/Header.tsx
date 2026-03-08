@@ -3,9 +3,7 @@ import { smoothScrollTo } from '../utils/smoothScroll';
 import { navLinks } from '../data/navigation';
 import { siteOwner } from '../data/owner';
 
-export interface HeaderProps { }
-
-export default function Header({ }: HeaderProps) {
+export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const headerRef = useRef<HTMLElement>(null);
 

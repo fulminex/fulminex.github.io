@@ -1,9 +1,7 @@
 import { socialLinks, isOpenForOpportunities } from '../data/owner';
 import { contactContent } from '../data/contact';
 
-export interface ContactBannerProps { }
-
-export default function ContactBanner({ }: ContactBannerProps) {
+export default function ContactBanner() {
     return (
         <div id="contact" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="bg-gradient-to-br from-primary/20 to-indigo-900/20 rounded-2xl p-8 md:p-12 border border-slate-700 text-center relative overflow-hidden">

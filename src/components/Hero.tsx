@@ -4,9 +4,7 @@ import { calculateYearsOfExperience } from '../utils/dateUtils';
 
 const yearsOfExperience = calculateYearsOfExperience();
 
-export interface HeroProps { }
-
-export default function Hero({ }: HeroProps) {
+export default function Hero() {
     const resolveTemplate = (text: string) =>
         text
             .replace('{careerStartYear}', String(careerStart.year))
